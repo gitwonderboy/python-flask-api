@@ -1,5 +1,5 @@
 import unittest
-import app
+import api as app
 
 def read_file(filename):
     with open(filename, "r") as my_data:
