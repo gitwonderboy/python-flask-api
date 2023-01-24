@@ -20,7 +20,7 @@ app = fla(__name__)
 
 @app.route("/")
 def Home():
-    return ("<h1>Data API</h1>")
+    return ("<h1>Data API</h1>\n<h2>Go to:</h2>\n<ul><li><strong>List all users :</strong> /users</li><li><strong>List user by id :</strong> /user/1</li></ul>")
 
 @app.route("/users")
 def Users():
